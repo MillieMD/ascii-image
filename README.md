@@ -1,4 +1,4 @@
-#ascii-image
+# ascii-image
 
 Read a 24-bit Bitmap image, and print to stdout as black and white ASCII art
 
