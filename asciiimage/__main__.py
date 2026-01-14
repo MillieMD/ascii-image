@@ -78,7 +78,7 @@ def main():
         description="Convert an image file to ascii art",
     )
 
-    parser.add_argument("img", help="file to display. supported filetypes: .bmp, .png, .jpg")
+    parser.add_argument("img", help="file to display. supported filetypes: .bmp")
 
     args = parser.parse_args()
 
@@ -98,8 +98,6 @@ def main():
     except FileNotFoundError:
         error(f"File Not Found: {args.img} does not exist")
 
-
-    
 
 if __name__ == '__main__':
     main()
